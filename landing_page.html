@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty In Bunch</title>
+    <link rel="stylesheet" href="landingpage.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a href="#contact">Contact Details</a>
+        <a href="#order">Order Now</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#">Home</a>   
+
+        <div class="search">
+                <input type="text"
+                    placeholder=" Search"
+                    name="search">
+        </div>
+    </nav> 
+    <header>
+        <h1>WELCOME TO BEAUTY IN <span>BUNCH</span></h1>
+        <p>Live simply,bloom widely!!</p>
+    </header>
+     
+    <p id="flower">Choose the bouquet you want based on the occasion.</p>
+    <br>
+    <h2 id="page">Store!!</h2>
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+  <div class="carousel-cell"><img src="1stflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Elegant Rose Bouquet-<b>600/-</b></p></div></div>
+  <div class="carousel-cell"><img src="2ndflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Colorful Summer-<b>400/-</b></p></div></div>
+  <div class="carousel-cell"><img src="3rdflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>15 Mix White Flower Bouquet-<b>950/-</b></p></div></div>
+  <div class="carousel-cell"><img src="4thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Bright & Beautiful Bouquet-<b>800/-</b></p></div></div>
+  <div class="carousel-cell"><img src="5thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Bouquet of Mix Flowers-<b>1000/-</b></p></div></div>
+  <div class="carousel-cell"><img src="6thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Blue Orchid Jute Bouquet-<b>700/-</b></p></div></div>
+  <div class="carousel-cell"><img src="7thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Purple Bouquet-<b>1200/-</b></p></div></div>
+  <div class="carousel-cell"><img src="8thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Bouquet Of Roses-<b>900/-</b></p></div></div>
+  <div class="carousel-cell"><img src="9thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Wedding Flower Bouquet-<b>1250/-</b></p></div></div>
+  <div class="carousel-cell"><img src="10thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Bouquet of Luxury Flower-<b>1300/-</b></p></div></div>
+  <div class="carousel-cell"><img src="11thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Honey Bee Flower Bouquet-<b>700/-</b></p></div></div>
+  <div class="carousel-cell"><img src="12thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Bridal Bouquet-<b>1050/-</b></p></div></div>
+  <div class="carousel-cell"><img src="13thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>White Rose Bouquet-<b>400/-</b></p></div></div>
+  <div class="carousel-cell"><img src="14thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Mix Pink Flowers Bouquet-<b>750/-</b></p></div></div>
+  <div class="carousel-cell"><img src="15thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Garden Flower Bouquet-<b>300/-</b></p></div></div>
+  <div class="carousel-cell"><img src="16thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Stylish Bouquet-<b>1450/-</b></p></div></div>
+  <div class="carousel-cell"><img src="17thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>Mix Violet Flowers Bouquet-<b>400/-</b></p></div></div>
+  <div class="carousel-cell"><img src="18thflower.jpeg" alt="" width="250" height="300"><div class="carousel-caption"><p>20-Mix Flowers Bouquet-<b>800/-</b></p></div></div>
+</div>
+    
+    <!-----------------------Order Now---------------------------------------->
+    <div id="order">
+        <h2>Order Now!!</h2>
+        <p>For <b>Order </b> fill the below form</p>
+        <form action="" method="get">
+            <p>Your Name: <input type="text" required placeholder="Enter username"></p>
+            <p>Email: <input type="email" required placeholder="Enter your email id"></p>
+            <p>Mobile Number: <input type="number" required placeholder="Enter correct number"></p>
+            <p>Address: <textarea name="address" id="message" cols="15" rows="5" placeholder="Enter your address for delivery"></textarea></p>
+            <p>Message: <textarea name="message" id="message" cols="15" rows="5" placeholder="Enter message which you want to write on card with bouquet"></textarea></p>
+            <p>Date of delivery: <input type="date" name="date" id="date"></p>
+            <p>Select occasion:
+                <select name="occasion" id="occasion" required>
+                    <option value="">-Select occasion-</option>
+                    <option value="Birthday">Birthday</option>
+                    <option value="Anniverssary">Anniverssary</option>
+                    <option value="Wedding">Wedding</option>
+                    <option value="Rakhi">Rakhi</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <p>----------<b>Payment Details</b>-----------</p>
+            <p>Card Type:
+                <select name="card_type" id="card_type" required>
+                    <option value="">-Select a Card Type-</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="mastercard">MasterCard</option>
+                </select>
+            </p>
+            <p>
+                Card Number: <input type="number" name="card_number" id="card_number" required placeholder="1111-2222-3333-4444"> 
+            </p>
+            <p>
+                Expiration Date:<input type="date" name="exp_date" id="exp_date" required >
+            </p>
+            <p>
+                CVV: <input type="password" name="cvv" id="cvv" required placeholder="123">
+            </p>
+            <p><span><input type="checkbox" required></span> I agree to the terms of service</p>
+            <input type="submit" value="Submit & Pay Now">
+        </form>
+    </div>
+    <br>
+     <!-----------------------About us----------------------------------------->
+     <div id="aboutus">
+        <h2>About Us</h2>
+        <p>Welcome to <b>BEAUTY IN BUNCH</b> where you may find the finest bouquets of flowers and presents. As an online florist, our mission is to enhance every celebration and occasion by bringing the beauty of nature. We think flowers have the ability to stir feelings, elevate spirits & forge connections. For this reason, we put our entire being into creating exquisite bouquets and arrangements that express love, thanks, celebration, and sympathy.Our skilled team of floral craftsmen creates eye-catching arrangements by fusing imagination, knowledge, and attention to detail. Your flower gifts will be delivered on time thanks to our dependable delivery network. <b>Thank you for choosing us.</b> We look forward to serving you and being a part of your special occasions.</p> 
+    </div>
+    <br>
+     <!-----------------------Contact Details----------------------------------------->
+     <div id="contact">
+        <h2>Contact Details</h2>
+        <p><b>Email: </b>sagarikaghom170@gmail.com</p>
+        <p><b>Mobile No: </b>9370743990</p>
+        <p><b> Landline No: </b>7775-0893-0963</p>
+        <p><b>For additional information, follow us on social media.</b></p>
+        <a href="#" class="fa fa-instagram"></a><a href="#" class="fa fa-pinterest"></a><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-youtube"></a><a href="#" class="fa fa-linkedin"></a>
+     </div>
+     <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a href="#">&copy;Sagarika| Beauty In Bunch</a>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>

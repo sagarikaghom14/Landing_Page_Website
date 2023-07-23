@@ -1,0 +1,188 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    color: #ffff;
+    font-size: 30px; 
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align:center;
+    background: url(imageamainflower.jpg) no-repeat center;
+}
+#page{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: oblique;
+}
+p{
+    font-style: oblique;
+}
+nav{
+    font-size: 20px;
+    overflow: hidden;
+    background-color:#000000;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;   
+}
+nav a{
+    padding: 20px;
+    text-align: center;
+    float: right;
+    color: white;
+}
+nav a:hover{
+    color: red;
+}
+#flower{
+    font-style: italic;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    background-color: #000000;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+div{
+    box-sizing: border-box;
+    background-color: rgb(240, 228, 214);
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+    margin: 0;
+    border: 1px solid rgb(240, 228, 214);
+}
+
+#aboutus{
+    font-size: 20px;
+    text-align:center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 228, 214);
+    background-size: cover;
+    background-position: center;
+}
+#order{
+    width: 600px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.295);
+    background-color: rgb(240, 228, 214);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+h2{
+    text-decoration:underline;
+}
+
+input[type="submit"]{
+    font-size: 18px;
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    
+}
+input[type="submit"]:hover{
+    background-color:#565a5c;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+textarea,select{
+     background-color: #fff;
+     border-radius: 20px;
+     padding: 5px;
+     margin: 5px 0;
+     width: 100%;
+     border: 1px solid #fff;
+     outline: none;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    background: #e117ca;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+     
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: ;
+    margin:5px;
+    border: none;
+    background-color: black;
+}
+     
+.search button{
+    background-color: #0074D9;
+    color: rgb(240, 228, 214);
+    float: right;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+  .carousel-cell {
+    width: 25%;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+ 
+footer {
+    background-color:black;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float:right;
+    color: white;
+}
+  
+ 
